@@ -1,0 +1,173 @@
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,textarea,p,th,td{padding:0;margin:0;font-family:Microsoft YaHei,sans-serif,Arial}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+a{text-decoration:none;color:#000;outline:none}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{*font-size:100%}
+/*nav start*/
+@media (max-width: 767px){
+	.navbar-nav{
+		background:rgba(0,0,0,0.3);;
+		margin: 0 -15px;
+	}
+}
+.navbar-default .navbar-nav>li>a{
+	color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover{
+	color: #f67552;
+}
+.navbar-brand{
+	padding:3px 15px;
+}
+.navbar-default{
+	background: transparent;
+	border:none;
+}
+
+/*nav finish*/
+/*-----------------------------------------------*/
+/*banner start*/
+.intro {
+	width:100%;
+	position:relative;
+	background: url(../images/banner_bg.jpg) no-repeat top center;
+	text-align: center;
+}
+#intro.intro {
+	padding:15% 0 5% 0;
+}
+.intro .container .img-responsive{
+	margin: 0 auto;
+}
+/*banner finish*/
+/*-----------------------------------------------*/
+/*about start*/
+.about{
+	padding-top: 2%;
+	padding-bottom: 3%;
+}
+.about .about_title{
+	margin: 20px auto;
+}
+.time_line {
+	width: 90%;
+	max-width: 1170px;
+	margin: 0 auto;
+	position: relative;
+}
+.time_line:before {
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	content: " ";
+	width: 3px;
+	background-color: #ccc;
+	left: 50%;
+	margin-left: -1.5px;
+}
+.about_bottom{
+	margin: 0 auto;
+}
+/*about finish*/
+/*-----------------------------------------------*/
+/*skills start*/
+.skills{
+	background: #22191c;
+	padding-bottom: 5%;
+	clear: both;
+}
+.skills .skills_title{
+	margin: 5% auto;
+}
+.skills .skills_img{
+	margin: 0 auto;
+}
+.design_down, .program_down, .web_down{
+	margin: 5% auto;
+	cursor: pointer;
+}
+.skills .skills_design{
+	margin: 3% auto;
+}
+.skills_program{
+	margin: 3% auto;
+}
+.skills_web{
+	margin: 3% auto;
+}
+.skills_design_info, .skills_program_info, .skills_web_info{
+	display: none;
+}
+/*skills finish*/
+/*-----------------------------------------------*/
+/*portfolio start*/
+.portfolio{
+	background: #f1f1f1;
+}
+.portfolio .portfolio_title{
+	margin: 3% auto;
+}
+.portfolio .p_img{
+	margin: 2% auto;
+	padding: 6%;
+	transition:background 0.5s,border-radius 0.5s,box-shadow 0.5s;
+	-webkit-transition:background 0.5s,border-radius 0.5s,box-shadow 0.5s;
+	-moz-transition:background 0.5s,border-radius 0.5s,box-shadow 0.5s;
+	cursor: pointer;
+}
+.portfolio .p_img:hover{
+	border-radius: 10px;
+	background: #f67552;
+	box-shadow: 1px 1px 10px #000;
+}
+.p_btn{
+	font-size: 2.6rem;
+	border: 1px solid #f67552;
+	display: inline-block;
+	padding: 1% 2%;
+	cursor: pointer;
+	margin: 3% auto;
+	border-radius: 8px;
+	transition:background 0.5s,color 0.5s;
+	-webkit-transition:background 0.5s,color 0.5s;
+	-moz-transition:background 0.5s,color 0.5s;
+}
+.p_btn:hover{
+	background: #f67552;
+	color: #fff;
+}
+.btn_m{
+	text-align: center;
+}
+.portfolio .web_zp,.portfolio .pm_zp{
+	-webkit-transform-style: preserve-3d;
+}
+.on{
+	-webkit-animation: spin 1.5s 1 linear;
+}
+@-webkit-keyframes spin {
+	from {-webkit-transform: rotateY(0);}
+	to {-webkit-transform: rotateY(360deg);}
+}
+/*portfolio finish*/
+/*-----------------------------------------------*/
+/*contact start*/
+.contact{
+	background: url(../images/2.jpg) no-repeat top center;
+	text-align: center;
+	padding:3% 0;
+}
+.contact .bg{
+	background: rgba(0,0,0,0.5);	
+}
+.contact_logo{
+	margin: 3% auto;
+}
+.contact .contact_img{
+	margin: 2% auto;
+}
