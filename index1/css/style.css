@@ -1,0 +1,258 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,textarea,p,th,td{padding:0;margin:0;font-family:Microsoft YaHei,sans-serif,Arial}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+a{text-decoration:none;color:#000;outline:none}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{*font-size:100%}
+html{
+	font-size: 14px;
+}
+/*nav start*/
+.top{
+	background: #cc0000;
+	height: 50px;
+	width: 100%;
+}
+.top ul{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top ul li{
+	float: left;
+}
+.top ul li a{
+	height: 50px;
+	padding:0 15px;
+	line-height: 50px;
+	color: #fff;
+}
+.top .reg a,.top .login a{
+	color: #fff3be;
+}
+.top .reg:hover,.top .login:hover{
+	background: #990000;
+}
+.top .reg{
+	margin-left: 220px;
+}
+/*nav finish*/
+.banner{
+	background: #fff2df;
+	width: 100%;
+}
+.bannerpic,.cutpic,.addresspic{
+	width: 1000px;
+	margin: 0 auto;
+}
+.cut{
+	background: #320659;
+	width: 100%;
+}
+/*地理位置 开始*/
+.address{
+	background: #c3f7eb;
+	width: 100%;
+}
+.map{
+	width: 426px;
+	height: 220px;
+	text-indent:2em;
+	position: absolute;
+	top: 150px;
+	left: 25px;
+	line-height: 48px;
+	font-size: 16px;
+}
+.address .addresspic{
+	position: relative;
+}
+.traffic{
+	width: 444px;
+	height: 266px;
+	text-indent:2em;
+	position: absolute;
+	left: 530px;
+	bottom: 50px;
+	line-height: 48px;
+	font-size: 16px;
+}
+/*地理位置 结束*/
+.around{
+	background: url(../images/bg.gif);
+	background-repeat: repeat;
+	width: 100%;
+	height: 1107px;
+}
+.aroundpic{
+	width: 1000px;
+	margin: 0 auto;
+}
+/*房型优势 开始*/
+.house{
+	background: #fff100;
+	width: 100%;
+	height: 2100px;
+}
+.housepic{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.housepic .housee{
+	position: absolute;
+	top: 60px;
+	left: 28px;
+}
+.housepic .first{
+	position: absolute;
+	left: 28px;
+	top: 172px;
+}
+.housepic .house1{
+	position: absolute;
+	right: 60px;
+	top: 60px;
+}
+.housepic .house11{
+	text-indent:2em;
+	position: absolute;
+	left: 28px;
+	top: 240px;
+	line-height: 55px;
+	font-size: 16px;
+	width: 514px;
+	height: 194px;
+}
+.housepic .house2{
+	position: absolute;
+	left: 28px;
+	top: 486px;
+}
+.housepic .second{
+	position: absolute;
+	right: 60px;
+	top: 526px;
+}
+.housepic .house22{
+	text-indent:2em;
+	position: absolute;
+	top: 620px;
+	left: 470px;
+	font-size: 16px;
+	line-height: 55px;
+	width: 510px;
+	height: 216px;
+}
+.housepic .third{
+	position: absolute;
+	left: 28px;
+	top: 962px;
+}
+.housepic .house3{
+	position: absolute;
+	right: 28px;
+	top: 962px;
+}
+.housepic .house33{
+	text-indent:2em;
+	position: absolute;
+	left: 28px;
+	top: 1046px;
+	font-size: 16px;
+	line-height: 55px;
+	width: 490px;
+	height: 182px;
+}
+.housepic .fourth{
+	position: absolute;
+	right: 28px;
+	top: 1324px;
+}
+.housepic .house4{
+	position: absolute;
+	left: 28px;
+	top: 1324px;
+}
+.housepic .house44{
+	text-indent:2em;
+	position: absolute;
+	left: 510px;
+	top: 1394px;
+	font-size: 16px;
+	line-height: 55px;
+	width: 486px;
+	height: 142px;
+}
+.housepic .fifth{
+	position: absolute;
+	left: 28px;
+	top: 1700px;
+}
+.housepic .house5{
+	position: absolute;
+	right: 28px;
+	top: 1800px;
+}
+.housepic .house55{
+	text-indent:2em;
+	position: absolute;
+	top: 1774px;
+	left: 28px;
+	font-size: 16px;
+	line-height: 55px;
+	width: 496px;
+	height: 298px;
+}
+/*房型优势 结束*/
+/*项目 开始*/
+.introduce{
+	background: #fffeec;
+	width: 100%;
+	padding-bottom: 20px;
+}
+.introduce .inpic{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+}
+.introduce .title{
+	margin-top:16px;
+	margin-bottom: 26px; 
+}
+.introduce .xm{
+	text-indent: 2em;
+	font-size: 16px;
+	line-height: 55px;
+	text-align: left;
+	margin-left: 40px;
+	width: 930px;
+	height: 210px;
+}
+/*项目 结束*/
+.tel{
+	width: 1000px;
+	margin: 0 auto;
+	margin-bottom: 48px;
+}
+/*footer start*/
+.footer{
+	width: 1000px;
+	margin: 0 auto;
+	color: #666;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.footer .between{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.footer .contact{
+	margin-bottom: 10px;
+}
+.footer .contact a{
+	color: #666;
+}
+/*footer finish*/
