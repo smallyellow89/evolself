@@ -83,17 +83,31 @@ $(function() {
     });	
 	$('.intro .container .img-responsive').hide().fadeIn(1500);
 
-	$(".portfolio .web_zp").mouseenter(function() {
-		$(this).addClass('on');
-	});
-	$(".portfolio .web_zp").mouseleave(function() {
-		$(this).removeClass('on');
+	$(".portfolio .web_zp img").on({
+		mouseenter:function(){
+			$(this).addClass('on');
+		},
+		mouseleave:function(){
+			$(this).removeClass('on');
+		}
 	});
 
-	$(".portfolio .pm_zp").mouseenter(function() {
-		$(this).addClass('on');
+	$(".portfolio .pm_zp img").on({
+		mouseenter:function(){
+			$(this).addClass('on');
+		},
+		mouseleave:function(){
+			$(this).removeClass('on');
+		}
 	});
-	$(".portfolio .pm_zp").mouseleave(function() {
-		$(this).removeClass('on');
+	$(".pics div").on("click",function(){
+		var idx=$(this).index();
+		idx=eval(idx+1);
+		$(".pic>img").attr("src","images/pic"+idx+".jpg");
+		$(".pic").show();
 	});
-})
+	$(".closePic").on("click",function(){
+		$(".pic").hide();
+	});
+
+});
