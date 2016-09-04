@@ -1,0 +1,334 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,textarea,p,th,td{padding:0;margin:0;font-family:Microsoft YaHei,sans-serif,Arial}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+a{text-decoration:none;color:#000;outline:none}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{*font-size:100%}
+html{
+	font-size: 14px;
+}
+/*nav start*/
+.top{
+	background: #cc0000;
+	height: 50px;
+	width: 100%;
+}
+.top ul{
+	width: 1000px;
+	margin: 0 auto;
+}
+.top ul li{
+	float: left;
+}
+.top ul li a{
+	height: 50px;
+	padding:0 15px;
+	line-height: 50px;
+	color: #fff;
+}
+.top .reg a,.top .login a{
+	color: #fff3be;
+}
+.top .reg:hover,.top .login:hover{
+	background: #990000;
+}
+.top .reg{
+	margin-left: 220px;
+}
+/*nav finish*/
+.banner{
+	width: 1000px;
+	height: 750px;
+	margin: 0 auto;
+}
+/*main start*/
+.main{
+	width: 980px;
+	margin: 0 auto;
+	border-left:10px solid #957f67;
+	border-right:10px solid #957f67;
+}
+/*main finish*/
+/*zb start*/
+.main .zb{
+	text-align: center;
+}
+.main .zb .zb_title{
+	margin: 20px 0;
+}
+.main .zb .zb_p{
+	margin-bottom: 20px;
+}
+.main .zb .zb_content{
+	background: #0d6fb8;
+	width: 940px;
+	height: 1000px;
+	margin: 0 auto;
+	position: relative;
+}
+.main .zb .zb_content .zbp1{
+	position: absolute;
+	right: 10px;
+	top: 35px;
+}
+.main .zb .zb_content .zbp2{
+	position: absolute;
+	left: 10px;
+	top: 360px;
+}
+.main .zb .zb_content .zbp3{
+	position: absolute;
+	right: 10px;
+	bottom: 20px;
+}
+.main .zb .zb_content .zbt1{
+	position: absolute;
+	top: 50px;
+	left: 120px;
+}
+.main .zb .zb_content .zbt2{
+	position: absolute;
+	top: 380px;
+	right: 120px;
+}
+.main .zb .zb_content .zbt3{
+	position: absolute;
+	left: 120px;
+	bottom: 270px;
+}
+.main .zb .zb_content .zb_a1,.main .zb .zb_content .zb_a2,.main .zb .zb_content .zb_a3{
+	color: #fff;
+	font-size: 20px;
+	width: 400px;
+	text-align: left;
+}
+.main .zb .zb_content .zb_a1{
+	position: absolute;
+	left: 30px;
+	top: 100px;
+}
+.main .zb .zb_content .zb_a2{
+	position: absolute;
+	right: 30px;
+	top: 460px;
+}
+.main .zb .zb_content .zb_a3{
+	position: absolute;
+	left: 30px;
+	bottom: 140px;
+}
+/*zb finish*/
+/*fx1 start*/
+.main .fx1{
+	text-align: center;
+	margin-top: 20px;
+}
+.main .fx1 .fx1_t{
+	width: 800px;
+	color: #0e6eb8;
+	margin: 20px auto;
+}
+/*fx1 finish*/
+/*fx2 start*/
+.main .fx2{
+	margin-top: 20px;
+	text-align: center;
+	position: relative;
+	height: 1700px;
+}
+.main .fx2 .a1_fx,.main .fx2 .a2_fx,.main .fx2 .a3_fx{
+	color: #0e6eb8;
+	font-size: 30px;
+}
+.main .fx2 .mj1,.main .fx2 .mj2,.main .fx2 .mj3{
+	color: #0e6eb8;
+}
+.main .fx2 .pj1,.main .fx2 .pj2,.main .fx2 .pj3{
+	color: #0e6eb8;
+	font-size: 14px;
+	text-align: left;
+}
+.main .fx2 .hx1{
+	position: absolute;
+	left: 30px;
+	top: 340px;
+}
+.main .fx2 .a1{
+	position: absolute;
+	right: 20px;
+	top: 140px;
+}
+.main .fx2 .a1_fx{
+	position: absolute;
+	left: 30px;
+	top: 250px;
+}
+.main .fx2 .A1{
+	position: absolute;
+	left: 200px;
+	top: 200px;
+}
+.main .fx2 .mj1{
+	position: absolute;
+	left: 30px;
+	top: 300px;
+	font-size: 18px;
+}
+.main .fx2 .pj1{
+	position: absolute;
+	left: 30px;
+	top: 380px;
+	font-size: 16px;
+}
+.main .fx2 .smj1{
+	position: absolute;
+	left: 30px;
+	top: 480px;
+}
+.main .fx2 .a2{
+	position: absolute;
+	left: 20px;
+	top: 640px;
+}
+.main .fx2 .A2{
+	position: absolute;
+	right: 200px;
+	top:700px;
+}
+.main .fx2 .a2_fx{
+	position: absolute;
+	left: 600px;
+	top: 760px;
+}
+.main .fx2 .mj2{
+	position: absolute;
+	left: 600px;
+	top: 810px;
+	font-size: 18px;
+}
+.main .fx2 .hx2{
+	position: absolute;
+	left: 600px;
+	top: 850px;
+}
+.main .fx2 .pj2{
+	position: absolute;
+	left: 600px;
+	top: 890px;
+	font-size: 16px;
+}
+.main .fx2 .smj2{
+	position: absolute;
+	left: 600px;
+	top: 1070px;
+}
+.main .fx2 .a3{
+	position: absolute;
+	right: 20px;
+	top: 1100px;
+}
+.main .fx2 .a3{
+	position: absolute;
+	right: 20px;
+	top: 1160px;
+}
+.main .fx2 .A3{
+	position: absolute;
+	left: 200px;
+	top: 1220px;
+}
+.main .fx2 .a3_fx{
+	position: absolute;
+	left: 30px;
+	top: 1280px;
+}
+.main .fx2 .mj3{
+	position: absolute;
+	left: 30px;
+	top: 1330px;
+	font-size: 18px;
+}
+.main .fx2 .hx3{
+	position: absolute;
+	left: 30px;
+	top: 1370px;
+}
+.main .fx2 .pj3{
+	position: absolute;
+	left: 30px;
+	top: 1410px;
+	font-size: 16px;
+}
+.main .fx2 .smj3{
+	position: absolute;
+	left: 30px;
+	top: 1510px;
+}
+/*fx2 finish*/
+/*map start*/
+.main .map{
+	text-align: center;
+}
+.main .map .map_a{
+	width: 880px;
+	height:70px;
+	margin: 0 auto;
+	background: #0d6fb8;
+	color: #fff;
+	text-align: left;
+	text-indent: 2em;
+	font-size: 16px;
+	padding:10px;
+	margin-bottom: 20px;
+}
+/*map finish*/
+/*blake start*/
+.main .blake{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.main .blake .lake_p{
+	border: 2px solid #0d6fb8;
+	width: 896px;
+	height: 320px;
+	margin: 0 auto;
+	position: relative;
+}
+.main .blake .lake_p .lake_l{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 460px;
+}
+.main .blake .lake_p .lake_r{
+	font-size: 16px;
+	color: #0d6fb8;
+	position: absolute;
+	right: 80px;
+	top:10px;
+	text-align: left;
+	line-height: 60px;
+}
+/*blake finish*/
+/*footer start*/
+.footer{
+	width: 1000px;
+	margin: 0 auto;
+	color: #666;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.footer .between{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.footer .contact{
+	margin-bottom: 10px;
+}
+.footer .contact a{
+	color: #666;
+}
+/*footer finish*/

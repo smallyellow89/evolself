@@ -1,0 +1,299 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,form,fieldset,input,button,textarea,p,th,td{padding:0;margin:0;font-family:Microsoft YaHei,sans-serif,Arial}
+table{border-collapse:collapse;border-spacing:0}
+fieldset,img{border:0}
+a{text-decoration:none;color:#000;outline:none}
+li{list-style:none}
+caption,th{text-align:left}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}
+input,button,textarea,select{*font-size:100%}
+body{
+	font-size: 12px;
+	background: #f1f0f0;
+}
+.top{
+	background: #cc0000;
+}
+.top a{
+	color: #fff;
+}
+.nav span{
+	margin-left: 140px;
+	color: #fff;
+}
+.nav{
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	height: 42px;
+	line-height: 42px;
+}
+.nav ul{
+	margin-left: 88px;
+}
+.nav ul li{
+	display: inline-block;
+	*display:inline; 
+	*zoom:1; 
+	margin-left: 25px;
+	color: #fff;
+}
+.nav .reg{
+	margin-left: 22px;
+	margin-right: 34px;
+}
+.nav .reg,.nav .login{
+	color: #f9deb6;
+}
+.main{
+	width: 1080px;
+	margin: 0 auto 0 auto;
+}
+.img{
+	margin-bottom: 20px;
+}
+.content{
+	margin-bottom: 50px;
+	*zoom:1;
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.tab li a{
+	width:497px;
+	height: 102px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 102px;
+	*padding-top: 30px;
+	*height: 72px;
+}
+.name{
+	vertical-align: middle;
+	margin-left: 10px;
+}
+.tab li a img{
+	vertical-align: middle;
+}
+.tab li{
+	display: inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.this{
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.zfb{
+	clear: both;
+	position: relative;
+	height: 414px;
+	border-bottom: 1px solid #ccc;
+}
+.name{
+	font-weight: bolder;
+	font-size: 20px;
+}
+.logo1{
+	position: absolute;
+	top: 30px;
+	left: 290px;
+}
+.zfbname{
+	font-size: 40px;
+	position: absolute;
+	top: 40px;
+	left: 380px;
+}
+.call img{
+	vertical-align: middle;
+}
+.call{
+	font-size: 40px;
+	vertical-align: middle;
+}
+.phone1{
+	position: absolute;
+	top: 38px;
+	left: 44px;
+}
+.title{
+	position: absolute;
+	top: 132px;
+	left: 290px;
+	color: #5ab5f8;
+	font-size: 35px;
+}
+.photo{
+	position: absolute;
+	left: 300px;
+	*left: -350px;
+	top: 200px;
+	text-align: center;
+}
+.photo li{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 3px;
+}
+.word{
+	position: absolute;
+	left: 350px;
+	top: 190px;
+}
+.word li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	margin-top: 5px;
+	width:340px;
+}
+.zfd{
+	position: relative;
+	height: 460px;
+}
+.phone2{
+	position: absolute;
+	right: 10px;
+	top: 136px;
+}
+.app1{
+	position: absolute;
+	right: 136px;
+	bottom: 56px;
+}
+.app2{
+	position: absolute;
+	right: 26px;
+	bottom: 56px;
+}
+.logo2{
+	position: absolute;
+	left: 40px;
+	top: 38px;
+}
+.zfdname{
+	font-size: 40px;
+	position: absolute;
+	top: 50px;
+	left: 150px;
+}
+.title2{
+	position: absolute;
+	top: 132px;
+	left: 50px;
+	color: #5ab5f8;
+	font-size: 35px;
+}
+.photo2{
+	position: absolute;
+	left: 50px;
+	*left: -860px;
+	*top: 210px;
+	top: 200px;
+	text-align: center;
+}
+.photo2 li{
+	height: 50px;
+	line-height: 50px;
+	margin-top: 3px;
+}
+.word2{
+	position: absolute;
+	left: 100px;
+	top: 190px;
+}
+.word2 li{
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	border-bottom: 1px solid #ccc;
+	margin-top: 5px;
+
+}
+.app3{
+	position: absolute;
+	top: 312px;
+	right: 378px;
+}
+.app4{
+	position: absolute;
+	top: 312px;
+	right: 268px;
+}
+.more ul{
+	text-align: center;
+	vertical-align:middle;
+	margin-top: 50px;
+}
+.more ul li{
+	vertical-align:middle;
+	display: inline-block;
+	*display:inline; 
+	*zoom:1; 
+	height: 200px;
+	width: 200px;
+	color: #fff;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+.kind{
+	font-size: 20px;
+	margin-top: 15px;
+}
+.more .all{
+	background: #be85d4;
+}
+.more .true{
+	background: #84bf38;
+}
+.more .look{
+	background: #ea7534;
+}
+.more .specialty{
+	background: #fa385a;
+}
+.img1{
+	margin-top: 30px;
+}
+.img2{
+	margin-top: 30px;
+}
+.img3{
+	margin-top: 40px;
+}
+.img4{
+	margin-top: 20px;
+}
+.p1{
+	margin-top:5px;
+	font-size: 14px;
+}
+.p2{
+	margin-top:14px; 
+	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.p3{
+	margin-top:20px; 
+	font-size: 14px;
+}
+.p4{
+	margin-top:11px;
+	font-size: 14px;
+}
+.footer{
+	clear: both;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.footer p{
+	margin-top: 70px;
+	margin-bottom: 20px;
+}
