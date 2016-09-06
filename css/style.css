@@ -197,3 +197,7 @@ input,button,textarea,select{*font-size:100%}
 	width:40px;
 	cursor: pointer;
 }
+.web_4 p{
+	text-align: center;
+	font-size: 16px;
+}
