@@ -1,0 +1,255 @@
+/*载入页样式*/
+.loadingPage{
+	width: 50%;
+	height: 50%;
+	overflow: auto;
+	margin: auto;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	z-index: 30000;
+	text-align: center;
+}
+.loadingPage img{
+	width: 30%;
+}
+
+.loadNum{
+	margin-top: 20px;
+	color: #c00;
+}
+.loadbg{
+	height: 4px;
+	width: 100%;
+	background: #ccc;
+	border-radius: 2px;
+}
+.loadbg .step{
+	height: 100%;
+	background: #ffdd40;
+	width: 0;
+}
+.black{
+	position: absolute;
+	background: #fff;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 29999;
+}
+.black p{
+	position: absolute;
+	width: 100%;
+	bottom: 1%;
+	color: #ccae22;
+	text-align: center;
+	font-size: 14px;
+}
+/*加载也结束*/
+.page1{
+	background: url(../images/t.jpg) repeat-y;
+	background-size: 100% 100%;
+	position: relative;
+	overflow: hidden;
+}
+.page1 #monkey{
+	position: absolute;
+	width:30%;
+	left: 35%;
+	top: 30%;
+}
+.time{
+	position: absolute;
+	left: -100px;
+	top: 0;
+}
+.monkeyL{
+	background: url(../images/1.png) no-repeat !important;
+}
+.monketR{
+	background: url(../images/2.png) no-repeat !important; 
+}
+.page1 .btn1,.page1 .btn2{
+	position: absolute;
+	bottom: 20px;
+	width: 30%;
+	z-index: 200;
+}
+.page1 .btn1{
+	left: 4%;
+}
+.page1 .btn2{
+	right: 4%;
+}
+.level{
+	width: 70px;
+}
+.level1{
+	position: absolute;
+	top: -50px;
+	right: 10px;
+	z-index: 100;
+}
+.level2{
+	position: absolute;
+	top: -50px;
+	right: 10px;
+	z-index: 100;
+}
+.level3{
+	position: absolute;
+	top: -50px;
+	right: 10px;
+	z-index: 100;
+}
+.level4{
+	position: absolute;
+	top: -50px;
+	right: 10px;
+	z-index: 100;
+}
+.pageOne{
+	background: url(../images/bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	text-align: center;
+}
+.res{
+	position: absolute;
+	left: 10%;
+	top: 10%;
+	width: 80%;
+	z-index: 888;
+	font-size: 0;
+	text-align: center;
+	display: none;
+}
+.res .word{
+	font-size: 14px;
+	position: absolute;
+	width: 86%;
+	left: 7%;
+	top:5%;
+	color: #594b09;
+}
+.res ul{
+	position: absolute;
+	bottom: 4%;
+	left: 0;
+}
+.res li{
+	display: inline-block;
+	width: 25%;
+	vertical-align: middle;
+}
+.res li:nth-child(2){
+	width: 40%;
+	margin: 0 2%;
+}
+.shareBg{
+	z-index: 999;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background:rgba(0,0,0,0.6);
+	text-align: right;
+	display: none;
+	padding: 10px;
+}
+.shareBg img{
+	width: 50%;
+}
+.start{
+	width: 50%;
+	position: absolute;
+	left: 25%;
+	bottom: 6%;
+}
+.tip{
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: url(../images/tip.png) no-repeat;
+	background-size: 100% 100%;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 777;
+}
+.musicBtn{
+	width: 10%;
+	position: fixed;
+	right: 2%;
+	top: 2%;
+	z-index: 9999;
+}
+.animate{
+	animation: around linear infinite 3s;
+	-webkit-animation: around linear infinite 3s;
+}
+@keyframes around
+{
+	from {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+@-webkit-keyframes around
+{
+	from {
+		transform: rotate(0deg);
+		-webkit-transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+		-webkit-transform: rotate(360deg);
+	}
+}
+.userInfo{
+	position: absolute;
+	width: 80%;
+	left: 10%;
+	top: 10%;
+	z-index: 890;
+	background: #FCCD59;
+	text-align: center;
+	border-radius: 10px;
+	display: none;
+}
+.userInfo p{
+	margin: 4% 0;
+}
+.userInfo .txt{
+	width: 90%;
+	margin: 5% auto;
+}
+.nameInput,.tel{
+	position: relative;
+	width: 90%;
+	margin: 5% auto;
+}
+.userInfo .realName,.userInfo .mobile{
+	position: absolute;
+	width: 65%;
+	right: 0;
+	top: 2%;
+	height: 80%;
+	border:none;
+	background: transparent;
+	font-size: 1.4rem;
+}
+.submitDiv{
+	width: 50%;
+	margin: 5% auto;
+}
