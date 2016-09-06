@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <title>世茂点亮猴年好运道</title>
+    <link rel="stylesheet" href="http://www.weijx.cn:84/theme/mobile/reset.css">
+    <link rel="stylesheet" href="css/draw.css">
+    <script src="http://www.weijx.cn:84/scripts/mobile/jquery-2.1.4.min.js"></script>
+    <script src="http://www.weijx.cn/scripts/common/md5.js"></script>
+    <script src="http://www.weijx.cn:84/scripts/mobile/common.mobile.js"></script>
+    <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <script src="http://www.weijx.cn:84/scripts/mobile/wechat.js"></script>
+    <script src="http://www.weijx.cn:84/scripts/mobile/match.js"></script>
+    <script src="http://www.weijx.cn:84/2015/lucky/js/preloadjs-0.6.1.min.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/shake.js"></script>
+    <script src="js/gifffer.min.js"></script>
+    <script src="js/draw.js"></script>
+</head>
+<body>
+    <!-- 预载入开始 -->
+    <div class="black">
+        <!-- <div class="ad1">
+            <img src="images/ad1.jpg" alt="">
+        </div>
+        <div class="ad2">
+            <img src="images/ad2.jpg" alt="">
+        </div>
+        <div class="ad3">
+            <img src="images/ad3.jpg" alt="">
+        </div> -->
+        <div class="loading">
+            <img src="images/1.gif" alt="">
+        </div>
+    </div>
+    <div class="loadingPage">
+        <div class="loadbg">
+            <div class="step"></div>
+        </div>
+        <div class="loadNum"></div>
+    </div>
+    <!--  载入页结束 -->
+    <audio src="images/music/bgm.mp3" preload="preload" class="sound1" loop="loop"></audio>
+    <audio src="images/music/shake.mp3" preload="preload" class="sound2"></audio>
+    <audio src="images/music/btn.wav" preload="preload" class="sound3"></audio>
+    <div class="page1 page">
+        <!-- <div class="monkeyGif">
+            <img src="images/monkey.gif" alt="">
+        </div>
+        <div class="lanternGif">
+            <img src="images/lantern.gif" alt="">
+        </div> -->
+        <div class="ranking_cover"></div>
+        <div class="r_list">
+            <div class="title">
+                <span class="order">排行</span>
+                <span class="photo">头像</span>
+                <span class="name">昵称</span>
+                <span class="new_score">得分</span>
+            </div>
+            <ul>
+               <!--  <li>
+                    <span class="user_order">1</span>
+                    <span class="user_photo">
+                        <img src="images/1.png" alt="">
+                    </span>
+                    <span class="user_name">
+                        asdadasdasdas
+                    </span>
+                    <span class="user_score">
+                        12
+                    </span>
+                </li> -->
+
+            </ul>
+            <div class="re_btn">
+                <img src="images/re.png" alt="">
+            </div>
+        </div>
+        <div class="rule">
+            <!-- <div class="ranking_btn">
+                <img src="images/ranking.png" alt="">
+            </div> -->
+            <!-- <div class="rule_pic">
+                <img src="images/rule.png" alt="">
+            </div> -->
+            <!-- <div class="rule_info">
+                在规定时间内，<br>点亮最多的灯笼，<br>越能得到自己想要的新年签呦~
+            </div> -->
+            <div class="start">
+                <img src="images/start_btn.png" alt="">
+            </div>
+        </div>
+        <div class="time">30</div>
+        <div class="score">0</div>
+        <div class="cover">
+            <div class="user">
+                <!-- <img src="images/1.png" alt=""> -->
+            </div>
+        </div>
+        <table  id="main">
+            <tbody>
+
+            </tbody>
+        </table>
+        <div class="success">
+            <!-- <div class="s_photo">
+                <img src="images/1.png" alt="">
+            </div> -->
+            <p class="s_result user_result">
+                得分：<span></span>
+            </p>
+            <!-- <p>
+                哎呦，不错呦~<br>
+                快来看看你的新年签如何~
+            </p> -->
+            <div class="btns">
+                <div class="again">
+                    <img src="images/again.png" alt="">
+                </div>
+                <div class="sign">
+                    <img src="images/sign.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fail">
+            <!-- <div class="f_photo">
+                <img src="images/1.png" alt="">
+            </div> -->
+            <p class="f_result user_result">
+                得分：<span></span>
+            </p>
+           <!--  <p>
+                骚年<br>
+                眼疾还得手快才行呦~<br>
+                回家练练再继续
+            </p> -->
+            <div class="re">
+                <img src="images/re.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="page2">
+        <div class="p2_cover"></div>
+        <div class="box">
+            <img src="images/box.png" alt="">
+        </div>
+        <div class="box2">
+            <img src="images/box.gif" alt="">
+        </div>
+        <div id="result">
+            <!-- <img src="images/signs/1.png" alt=""> -->
+        </div> 
+        <div class="reBg">
+            <img src="images/reBg.jpg" alt="">
+        </div>
+        <div class="subInfo">
+            <div class="subBg">
+                <img src="images/subBg.jpg" alt="">
+                <div class="subName">
+                    <div class="subNamePic">
+                        <img src="images/subName.png" alt="">
+                    </div>
+                    <input type="text" class="realName">
+                </div>
+                <div class="subTel">
+                    <div class="subTelPic">
+                        <img src="images/subTel.png" alt="">
+                    </div>
+                    <input type="text" class="mobile">
+                </div>
+                <div class="submitDiv">
+                    <img src="images/subInfo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="share_btn">
+            <img src="images/111.png" alt="">
+        </div>
+        <div class="shareBg">
+            <img src="images/fx.png" alt="">
+        </div>
+        <!-- <div class="hint">
+            <img src="images/hint.png" alt="">
+        </div> -->
+    </div>
+    <script src="http://www.weijx.cn:84/scripts/common/tj_baidu.js"/>
+</body>
+</html>
