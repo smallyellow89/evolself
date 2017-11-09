@@ -144,16 +144,16 @@ input,button,textarea,select{*font-size:100%}
 .btn_m{
 	text-align: center;
 }
-.portfolio .web_zp,.portfolio .pm_zp{
+/* .portfolio .web_zp,.portfolio .pm_zp{
 	-webkit-transform-style: preserve-3d;
 }
 .on{
-/* 	-webkit-animation: spin 1s 1 linear; */
+	-webkit-animation: spin 1s 1 linear;
 }
 @-webkit-keyframes spin {
 	from {-webkit-transform: rotateY(0);}
 	to {-webkit-transform: rotateY(360deg);}
-}
+} */
 /*portfolio finish*/
 /*-----------------------------------------------*/
 /*contact start*/
