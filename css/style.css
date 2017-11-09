@@ -148,7 +148,7 @@ input,button,textarea,select{*font-size:100%}
 	-webkit-transform-style: preserve-3d;
 }
 .on{
-	-webkit-animation: spin 1s 1 linear;
+/* 	-webkit-animation: spin 1s 1 linear; */
 }
 @-webkit-keyframes spin {
 	from {-webkit-transform: rotateY(0);}
